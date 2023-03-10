@@ -35,6 +35,7 @@
             .herosection{
             background: url(imgs/61734473-0373-434E-B265-7227E2419E35.jpg) no-repeat ;
             background-size: cover;
+            z-index: 9999;
             
             } 
 
@@ -42,7 +43,7 @@
             .divesection{
             background: url(imgs/material/20210704112630_54.jpeg) no-repeat;
             background-size: cover;
-            
+            z-index: 9999;
         
             } 
 
@@ -66,10 +67,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                   <li class="nav-item me-3">
-                    <a class="nav-link active text-white" aria-current="page" href="#">關於恒棧</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#area1">關於恒棧</a>
                   </li>
                   <li class="nav-item dropdown me-3">
-                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link text-white dropdown-toggle" href="#area2" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         房型介紹
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -79,10 +80,10 @@
                     </ul>
                   </li>
                   <li class="nav-item me-3">
-                    <a class="nav-link text-white" href="#">在地行程</a>
+                    <a class="nav-link text-white" href="#area3">在地行程</a>
                   </li>
                   <li class="nav-item me-3">
-                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">地理位置</a>
+                    <a class="nav-link text-white" href="#area4" tabindex="-1" aria-disabled="true">地理位置</a>
                   </li>
                   <button class="btn btn-warning rounded-pill ms-3" type="submit">線上訂房</button>
                 </ul>
@@ -99,7 +100,7 @@
       </header>
    
         <!-- section1 關於恒棧 -->
-        <section class="herosection ">  
+        <section class="herosection area" id="area1">  
             <div class="row">
                 <div class="col">
                     <!-- position-absolute align-items-center justify-content-center z-index: 20  -->
@@ -126,7 +127,7 @@
         </section>
 
     <!-- section2 房型介紹 -->
-        <section class=" type overflow-hidden">
+        <section class=" type overflow-hidden area" id="area2">
             <div class="container">
                 <div class=" row d-flex flex-column">
                     <div class="col ">
@@ -193,7 +194,7 @@
         
          <!-- section3 在地行程 -->
         
-        <section class="divesection ">  
+        <section class="divesection area" id="area3">  
             <div class="row">
                 <div class="col">
                     <!-- position-absolute align-items-center justify-content-center z-index: 20  -->
@@ -326,7 +327,7 @@
 
         <!-- section4 地理位置 -->
 
-        <section class="type overflow-hidden map">
+        <section class="type overflow-hidden map area" id="area4">
             <div class="container">
                 <div class=" row d-flex flex-column">
                     <div class="col ">
@@ -364,6 +365,8 @@
                     <!-- <div class="flower">
                         <img src="imgs/material/plumeria .png" alt="">
                     </div> -->
+
+                    <a href="" class="up">TOP</a>
                 </div>
             </div>
             
@@ -412,5 +415,9 @@
 </script>
 <!-- -------js-------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>      

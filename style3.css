@@ -1,3 +1,32 @@
+/* ----scrollpage------ */
+.area {
+  width: 100%;
+  /* max-width: 1480px; */
+  margin: auto;
+  /* height: 1000px; */
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #000;
+  padding: 100px 20px 20px;
+}
+#area1 {
+  background: url(imgs/61734473-0373-434E-B265-7227E2419E35.jpg) no-repeat 0 0 fixed;
+  background-size: cover;
+  /* position: relative; */
+}
+#area2 {
+  background: url() no-repeat 0 0 fixed;
+  background-size: cover;
+}
+#area3 {
+  background: url(imgs/material/20210704112630_54.jpeg) no-repeat 0 0 fixed;
+  background-size: cover;
+}
+#area4 {
+  background: url(images/slide4.jpg) no-repeat 0 0 fixed;
+  background-size: cover;
+}
+
+
 /* <!-- section1 關於恒棧 --> */
 
 html,body {
